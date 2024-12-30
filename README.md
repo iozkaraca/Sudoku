@@ -2,8 +2,6 @@
 
 This is a Python-based **Sudoku App** that allows users to generate Sudoku puzzles at different difficulty levels and view solutions. The project leverages `numpy`, `turtle`, and `PySimpleGUI` to create an interactive interface for solving and visualizing Sudoku puzzles.
 
----
-
 ## Features
 
 - Generate Sudoku puzzles with three difficulty levels:
@@ -14,8 +12,6 @@ This is a Python-based **Sudoku App** that allows users to generate Sudoku puzzl
 - Solve puzzles and display solutions.
 - Lightweight and easy to use.
 
----
-
 ## Installation
 
 ### Using Conda
@@ -24,7 +20,17 @@ This is a Python-based **Sudoku App** that allows users to generate Sudoku puzzl
    ```bash
    conda install -c ismailozkaraca sudoku
 
-### Contact
+## Running the Application
+
+After installation, run the application using the following command on terminal:
+sudoku-app
+
+Upon running the app, you will be prompted to choose a difficulty level interactively. The available options are:
+- easy
+- moderate
+- hard
+
+## Contact
 If you have any questions and/or comments, feel free to contact:
 
 Mustafa İsmail Özkaraca (ozkaraca@duck.com).
