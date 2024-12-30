@@ -1,0 +1,24 @@
+package:
+  name: sudoku
+  version: "1.0.0"
+
+source:
+  path: ..
+
+build:
+  script: |
+    $PYTHON -m pip install . --no-deps 
+
+requirements:
+  build:
+    - python
+    - pip 
+  run:
+    - python
+    - numpy
+    - pip
+
+about:
+  home: https://github.com/iozkaraca/Sudoku
+  license: MIT
+  summary: A Python-based Sudoku app.
