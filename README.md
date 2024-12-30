@@ -25,6 +25,6 @@ This is a Python-based **Sudoku App** that allows users to generate Sudoku puzzl
    conda install -c ismailozkaraca sudoku
 
 ### Contact
-If you have any questions and/or comments feel free to contact:
+If you have any questions and/or comments, feel free to contact:
 
-$`\mathbf{Mustafa\ Ismail\ Ozkaraca}`$ (iozkarac@duck.com).
+Mustafa İsmail Özkaraca (ozkaraca@duck.com).
