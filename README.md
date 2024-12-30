@@ -1,53 +1,30 @@
-# Sudoku Generator
+## Overview
 
-A Sudoku Generator App..
+This is a Python-based **Sudoku App** that allows users to generate Sudoku puzzles at different difficulty levels and view solutions. The project leverages `numpy`, `turtle`, and `PySimpleGUI` to create an interactive interface for solving and visualizing Sudoku puzzles.
 
+---
 
-### Download
+## Features
 
-git clone https://github.com/iozkaraca/Sudoku.git
+- Generate Sudoku puzzles with three difficulty levels:
+  - Easy
+  - Moderate
+  - Hard
+- Visualize Sudoku boards using Python's `turtle` graphics.
+- Solve puzzles and display solutions.
+- Lightweight and easy to use.
 
+---
 
-### Dependencies
-You need to have/install standard Python libraries. 
+## Installation
 
-
-### Current feature (v0.0)
-
-Generate Sudokus for different levels according to given by user input. 
-
-
-### Example Usage
-```
-$ python sudoku-generator.py
-
-Then follow the pop-up window to choose what you want.
-```
-
-
-### Button Options
-*Generate*
- 
-Generates a Sudoku game according to level given by user.
-
-
-*Solution*
- 
-Draw solution of last generated Sudoku game. If this button has clicked without generating a Sudoku game, then the program will exit.
-
-
-*Exit*
- 
-Program exits.
-
-
-### User Input
-*Level*
- 
-(String) Either easy moderate or hard. Anything else will output an error.
-
+### Using Conda
+1. Install Conda if you don’t have it already ([Download Conda](https://docs.conda.io/en/latest/miniconda.html)).
+2. Install the package directly from Anaconda.org:
+   ```bash
+   conda install -c ismailozkaraca sudoku
 
 ### Contact
 If you have any questions and/or comments feel free to contact:
 
-$`\mathbf{Mustafa\ \dot{I}smail\ \ddot{O}zkaraca}`$ (iozkarac@duck.com).
+$`\mathbf{Mustafa\ Ismail\ Ozkaraca}`$ (iozkarac@duck.com).
